@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Books</h1>
 <hr>
 
@@ -7,4 +8,16 @@
     <a href="/books/{{_id}}">See details</a>
   </div>
   <hr>
+=======
+
+<h1>Books</h1>
+<hr>
+
+{{#each books}}
+  <div>
+    <h3>{{this.title}}</h3>
+    <a href="/books/{{this._id}}">See details</a>
+  </div>
+  <hr>
+>>>>>>> 6f957638fa4c9225e677e32ab06448e8feb19d20
 {{/each}}
